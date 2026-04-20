@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f7fa;
+}
+
+nav {
+    background: #333;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+h1, h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+}
+
+select, input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #5a67d8;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.info {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f9fafb;
+    border-left: 5px solid #667eea;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.products {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f9fafb;
+    border-radius: 10px;
+}
+
+.products div {
+    background: #ffffff;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+}
